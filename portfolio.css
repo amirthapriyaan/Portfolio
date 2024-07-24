@@ -1,0 +1,381 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Optional: Set a background color for better contrast */
+}
+
+html {
+    scroll-behavior: smooth;
+    --scroll-time: 5s;
+}
+
+/* Navigation Header */
+.header {
+    width: 97%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.navhead {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgba(146, 161, 176, 0.35);
+    justify-content: space-between;
+    /* padding: 1rem 1rem; */
+}
+
+.name {
+    font-size: x-large;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.connect {
+    margin-left: 1rem;
+    display: flex;
+}
+
+.connect ul {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0 1rem;
+}
+
+.links-1 li {
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: blue;
+}
+
+/* First Page Section */
+.first-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro {
+    
+    
+}
+
+.linking a {
+    margin: 0 0.5rem;
+}
+
+/* About Section */
+.s-2 {
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.head-1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 0.2rem;
+    box-shadow: 0px 5px 5px rgba(146, 161, 176, 0.35);
+}
+
+.main-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+}
+
+.l-1, .r-1 {
+    flex: 1;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.profile-pic {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 80%;
+    object-fit: cover;
+    border: 5px solid gray;
+}
+
+.cont p {
+    font-size: larger;
+}
+
+.descp {
+    font-size: large;
+}
+
+
+.s-3 {
+    padding: 1rem;
+}
+
+.main-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+.l-2{
+    width: 80%;
+}
+
+.r-2 {
+    width: 30%;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.r-2 img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+.topic {
+    text-align: center;
+    font-size: 1.2rem; /* Increase font size */
+    font-weight: bold;
+}
+
+
+
+/* Projects Section */
+.s-4 {
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.pro1 {
+     
+    max-width: 300px;
+    border: 1px solid gray;
+}
+
+.pro1 img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Adjust the skill rows size */
+.row1 {
+    width: 25rem;
+    max-width: 800px; /* Increased width */
+    margin: 1rem 0; /* Increased margin */
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    padding: 0.5rem; /* Added padding */
+
+}
+
+/* Other styles for clarity */
+.range1 {
+    height:10px; /* Increased height */
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    margin-top: auto;
+}
+
+.skill-bar {
+    height: 100%;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+
+/* Improved General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.links-1 li {
+    font-size: 1.1rem;
+}
+
+.first-page .intro {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.s-2 .head-1,
+.s-4 .head-1 {
+    background-color: #333;
+    color: #fff;
+}
+
+.profile-pic {
+    border: 3px solid #333;
+}
+
+.row1 {
+    border: 2px solid #ddd;
+}
+
+.range1 {
+    background-color: #eaeaea;
+}
+
+.skill-bar {
+    background-color: #007bff;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .links {
+        display: none;
+    }
+    .r-2{
+        display: none;
+    }
+    .table{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .navhead {
+        padding: 0.5rem;
+    }
+
+    .name {
+        font-size: medium;
+    }
+
+    .links-1 {
+        display: none;
+    }
+
+    ul {
+        width: 100%;
+        /* flex-direction: column; */
+    }
+
+    li {
+        margin: 0.5rem 0;
+        font-size: medium;
+    }
+
+    .first-page {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .main-2 {
+        flex-direction: column;
+    }
+
+    .l-1, .r-1 {
+        width: 100%;
+        border: none;
+    }
+
+    .desc, .profile-pic {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size: small;
+    }
+
+    .navhead {
+        padding: 0.5rem;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        margin: 0.5rem 0;
+        font-size: small;
+    }
+}
