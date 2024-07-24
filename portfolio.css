@@ -314,6 +314,10 @@ body {
     .table{
         flex-direction: column;
     }
+    .profile-pic{
+        height: 1rem;
+
+    }
 }
 
 @media (max-width: 768px) {
